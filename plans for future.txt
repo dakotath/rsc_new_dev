@@ -1,0 +1,16 @@
+Rii Shop Channel Future Plans:
+- Install app's onto WSM or SDM (Wii sys mem, or SD mem).
+
+- Enter credit/debit card info on Rii Shop then send to paypal. XXXX CANCELED
+--- Replace with virtual currency
+
+- Mobile app to scan QR code for PVM (Payment Via Mobile). XXXX CALCELED
+--- Same as above
+
+- Get a few developers to put their apps onto the RSC.
+- Ability to send downloadable gifts.
+- Ability to send Rii Points.
+- Ability to view purchase history, delete RSC account, and gift opt in-out.
+- Get Wii Menu Messages of new releases.
+- Refund a purchased title (also includes removing the app from WSM/SDM).
+- Mobile shop (To see what is available on RSC)
