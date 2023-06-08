@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rii Shop</title>
+        <style>
+            .riishop_titlebarText {
+                color:#11aaff;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .pointContainer {
+                position: absolute;
+                text-align: center;
+                width: 98%;
+                height: 24px;
+                bottom: 32px;
+            }
+            .riipointSpan {
+                text-align: center;
+            }
+        </style>
+        <script>
+            var shop = new wiiShop();
+            var sound = new wiiSound();
+
+            shop.endWaiting();
+            sound.playBGM();
+        </script>
+    </head>
+    <body onload="">
+
+        <!--
+            Here is the overlay non-interactive shizz
+        -->
+
+        <div class="riishop_titlebarText">Rii Shop Channel</div>
+        <hr>
+
+        <p>{{ userInfos }}</p>
+
+        <div class="pointContainer">
+            <hr>
+            <div class="riipointSpan">0 Rii Points</div>
+        </div>
+
+        <!--
+            end of that
+        -->
+
+        <div class="buttons"></div>
+
+    </body>
+</html>

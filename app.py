@@ -21,7 +21,11 @@ babel = Babel(app)
 
 @app.route('/')
 def mainLoader():
-    return 'Hello, World!'
+    return render_template("mainPage.html")#'Hello, World!'
+
+@app.route('/welcome')
+def welcome():
+    return render_template("welcome.html", userInfos=shopCardPoints.getUserInfos(conn, cursor))
 
 if __name__ == '__main__':
     WSGIRequestHandler.protocol_version = "HTTP/1.1"
